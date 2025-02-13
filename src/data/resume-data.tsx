@@ -10,22 +10,22 @@ interface Contact {
   email: string;
   tel: string;
   social: Social[];
- }
+}
  
- interface Social {
+interface Social {
   name: string;
   url: string;
   icon: typeof GitHubIcon | typeof LinkedInIcon;
- }
+}
  
- interface Education {
+interface Education {
   school: string;
   degree: string;
   start: string;
   end: string;
- }
+}
  
- interface Work {
+interface Work {
   company: string;
   link: string;
   badges: string[];
@@ -34,9 +34,9 @@ interface Contact {
   start: string;
   end: string;
   description: string;
- }
+}
  
- interface Project {
+interface Project {
   title: string;
   techStack: string[];
   description: string;
@@ -44,9 +44,9 @@ interface Contact {
   link?: {
     href: string;
   };
- }
+}
 
- export const RESUME_DATA: {
+export const RESUME_DATA: {
   name: string;
   initials: string;
   location: string;
@@ -60,7 +60,7 @@ interface Contact {
   work: Work[];
   skills: string[];
   projects: Project[];
- } = {
+} = {
   name: "Lucas Lepore",
   initials: "LL",
   location: "San Francisco, CA",
@@ -68,7 +68,7 @@ interface Contact {
   about:
     "Full Stack Engineer focused on building highly resiliant and scalable applications",
   summary:
-  "In my role as a Full Stack Engineer, I have successfully launched products from concept to completion. My leadership skills enable me to create an environment that fosters exceptional performance from my team members. My area of expertise lies in backend development, primarily using Go. For frontend development, I frequently utilize TypeScript and React.",
+    "In my role as a Full Stack Engineer, I have successfully launched products from concept to completion. My leadership skills enable me to create an environment that fosters exceptional performance from my team members. My area of expertise lies in backend development, primarily using Go. For frontend development, I frequently utilize TypeScript and React.",
   avatarUrl: "https://avatars.githubusercontent.com/u/57828886?v=4",
   personalWebsiteUrl: "",
   contact: {
@@ -100,12 +100,12 @@ interface Contact {
       company: "Tesla",
       link: "https://www.tesla.com",
       badges: [],
-      title: "Robotics Controls Engineer → Senior Software Engineer",
+      title: "Robotics Controls Engineer → Staff Software & Product Engineer",
       logo: Tesla,
-      start: "2021",
+      start: "2020",
       end: "current",
       description:
-        "Implemented new features, led team, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "At Tesla, I bridge software development and product management by leading a team to enhance manufacturing processes across our factories. I drive product strategy by gathering user requirements, managing the software development lifecycle, and designing intuitive UI/UX for Tesla’s Factory Operating System. On the software side, I architect and implement distributed, fault-tolerant systems, write robust backend code in Go, and build automation tools that streamline manufacturing operations. Collaborating closely with cross-functional teams in supply chain, production, quality, and finance, I ensure that our solutions deliver measurable efficiency gains and cost reductions.",
     },
     {
       company: "Accenture Industry X",
@@ -127,9 +127,7 @@ interface Contact {
       start: "2016",
       end: "2016",
       description: 
-      "Created internal application to automatically prepare reports, and generate FMEA(Failure Mode and Effects Analysis). This was rolled out to the whole engineering and manufacturing team.\n" +
-      "Prepare cycle-time analysis and time studies to facilitate line balancing.\n" +
-      "Created and setup preventative/predictive maintenance requirements for process cooling water, compressed air and machine specific maintenance tasks",
+        "Created internal application to automatically prepare reports, and generate FMEA (Failure Mode and Effects Analysis). Rolled out to the whole engineering and manufacturing team. Prepared cycle-time analysis and time studies to facilitate line balancing. Created and set up preventative/predictive maintenance requirements for process cooling water, compressed air, and machine-specific maintenance tasks.",
     },
     {
       company: "Edge Automation",
@@ -139,7 +137,7 @@ interface Contact {
       logo: Edge,
       start: "2014",
       end: "2014",
-      description: "Machine, fixture and automation design, weldment and casting design, motion studies hydraulics/pneumatics, electrical interfacing and applicable R&D",
+      description: "Machine, fixture and automation design, weldment and casting design, motion studies, hydraulics/pneumatics, electrical interfacing and applicable R&D.",
     },
   ],
   skills: [
@@ -147,13 +145,23 @@ interface Contact {
     "TypeScript",
     "React",
     "GraphQL",
+    "Python",
+    "Product Management",
+    "UI/UX Design",
+    "Distributed Systems",
+    "Project Management",
+    "Database Design"
   ],
   projects: [
-    // {
-    //   title: "",
-    //   techStack: [],
-    //   description:
-    //   logo: ,
-    // },
+    {
+      title: "Factory Operating System",
+      techStack: ["Go", "TypeScript", "Distributed Systems"],
+      description:
+        "Developed a scalable Factory Operating System that streamlines manufacturing operations by integrating real-time data analytics, automation workflows, and interdepartmental process optimization across Tesla’s factories.",
+      logo: Tesla,
+      link: {
+        href: "https://www.tesla.com/manufacturing",
+      },
+    },
   ],
 }
