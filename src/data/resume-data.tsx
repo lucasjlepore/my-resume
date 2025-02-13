@@ -68,7 +68,7 @@ export const RESUME_DATA: {
   about:
     "Full Stack Engineer focused on building highly resiliant and scalable applications",
   summary:
-    "In my role as a Full Stack Engineer, I have successfully launched products from concept to completion. My leadership skills enable me to create an environment that fosters exceptional performance from my team members. My area of expertise lies in backend development, primarily using Go. For frontend development, I frequently utilize TypeScript and React.",
+    "In my role as a Full Stack Engineer, I drive end-to-end product delivery by blending technical expertise with strategic product leadership. I excel at architecting scalable, distributed systems while also crafting robust frontend solutions. Collaborating closely with cross-functional teams—from engineering to supply chain and manufacturing—I transform user requirements into impactful, efficient systems that optimize operations and reduce costs.",
   avatarUrl: "https://avatars.githubusercontent.com/u/57828886?v=4",
   personalWebsiteUrl: "",
   contact: {
