@@ -102,7 +102,7 @@ export const RESUME_DATA: {
       badges: [],
       title: "Robotics Controls Engineer → Staff Software & Product Engineer",
       logo: Tesla,
-      start: "2020",
+      start: "2019",
       end: "current",
       description:
         "At Tesla, I bridge software development and product management by leading a team to enhance manufacturing processes across our factories. I drive product strategy by gathering user requirements, managing the software development lifecycle, and designing intuitive UI/UX for Tesla’s Factory Operating System. On the software side, I architect and implement distributed, fault-tolerant systems, write robust backend code in Go, and build automation tools that streamline manufacturing operations. Collaborating closely with cross-functional teams in supply chain, production, quality, and finance, I ensure that our solutions deliver measurable efficiency gains and cost reductions.",
