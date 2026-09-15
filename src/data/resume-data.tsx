@@ -163,5 +163,55 @@ export const RESUME_DATA: {
         href: "https://www.tesla.com/manufacturing",
       },
     },
+    {
+      title: "Industrial Connectivity Platform",
+      techStack: ["Go", "Kubernetes", "Distributed Systems"],
+      description:
+        "Built a multi-vendor factory connectivity platform that securely bridges plant-floor controllers with manufacturing applications—handling protocol translation, high-availability routing, and schema-driven messaging at global scale.",
+      logo: Tesla,
+      link: {
+        href: "https://www.tesla.com/manufacturing",
+      },
+    },
+    {
+      title: "Factory Support AI",
+      techStack: ["Go", "React", "AI Agents"],
+      description:
+        "Designed a multi-agent AI system that helps engineers diagnose factory issues by investigating logs, code, production systems, and infrastructure—reducing time-to-resolution across manufacturing software domains.",
+      logo: Tesla,
+      link: {
+        href: "https://www.tesla.com/manufacturing",
+      },
+    },
+    {
+      title: "Self-Service Factory Environments",
+      techStack: ["Go", "Kubernetes", "React"],
+      description:
+        "Built a self-service platform for spinning up production-like factory software environments on demand, enabling faster development and safer validation across multi-site manufacturing stacks.",
+      logo: Tesla,
+      link: {
+        href: "https://www.tesla.com/manufacturing",
+      },
+    },
+    {
+      title: "Manufacturing Integration Layer",
+      techStack: ["Go", "TypeScript", "Event-Driven"],
+      description:
+        "Architected a config-driven integration layer that connects factory-floor events to manufacturing backends in real time, with hot-reloadable mappings and end-to-end observability across global factories.",
+      logo: Tesla,
+      link: {
+        href: "https://www.tesla.com/manufacturing",
+      },
+    },
+    {
+      title: "Material Flow & Carrier Systems",
+      techStack: ["Go", "Redis", "Low Latency"],
+      description:
+        "Developed low-latency services for tracking material carriers and conveyance on the production line—focused on reliability, failover, and line-stopping availability guarantees.",
+      logo: Tesla,
+      link: {
+        href: "https://www.tesla.com/manufacturing",
+      },
+    },
   ],
 }
