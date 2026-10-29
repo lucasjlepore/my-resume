@@ -66,9 +66,9 @@ export const RESUME_DATA: {
   location: "San Francisco, CA",
   locationLink: "https://www.google.com/maps/place/SanFrancisco",
   about:
-    "Full Stack Engineer focused on building highly resiliant and scalable applications",
+    "Staff full-stack engineer building AI-enabled production systems for advanced manufacturing",
   summary:
-    "In my role as a Full Stack Engineer, I drive end-to-end product delivery by blending technical expertise with strategic product leadership. I excel at architecting scalable, distributed systems while also crafting robust frontend solutions. Collaborating closely with cross-functional teams—from engineering to supply chain and manufacturing—I transform user requirements into impactful, efficient systems that optimize operations and reduce costs.",
+    "Staff software and product engineer with a controls and robotics background who ships end-to-end internal products for high-velocity manufacturing. I build AI-enabled tools, fault-tolerant distributed systems, and operator-facing workflows spanning plant-floor systems, backend services, and React interfaces. I work directly with production, supply chain, quality, and engineering teams to find high-leverage bottlenecks and turn them into reliable software used across factories.",
   avatarUrl: "https://avatars.githubusercontent.com/u/57828886?v=4",
   personalWebsiteUrl: "",
   contact: {
@@ -100,12 +100,12 @@ export const RESUME_DATA: {
       company: "Tesla",
       link: "https://www.tesla.com",
       badges: [],
-      title: "Robotics Controls Engineer → Staff Software & Product Engineer",
+      title: "Robotics Controls Engineer → Staff Software & Product Engineer, Manufacturing Systems",
       logo: Tesla,
       start: "2019",
       end: "current",
       description:
-        "At Tesla, I bridge software development and product management by leading a team to enhance manufacturing processes across our factories. I drive product strategy by gathering user requirements, managing the software development lifecycle, and designing intuitive UI/UX for Tesla’s Factory Operating System. On the software side, I architect and implement distributed, fault-tolerant systems, write robust backend code in Go, and build automation tools that streamline manufacturing operations. Collaborating closely with cross-functional teams in supply chain, production, quality, and finance, I ensure that our solutions deliver measurable efficiency gains and cost reductions.",
+        "Own internal software from problem discovery through production rollout for manufacturing teams across Tesla factories. Partner directly with production, supply chain, quality, finance, and engineering to identify bottlenecks; design operator-facing workflows; and ship the backend services, data integrations, and React interfaces behind Tesla’s Factory Operating System. Architect distributed, fault-tolerant Go systems and AI-enabled support tooling that help engineers diagnose issues, safely validate changes, and keep production moving.",
     },
     {
       company: "Accenture Industry X",
@@ -144,20 +144,23 @@ export const RESUME_DATA: {
     "Go",
     "TypeScript",
     "React",
-    "GraphQL",
     "Python",
-    "Product Management",
-    "UI/UX Design",
+    "LLM Agents",
+    "Kubernetes",
     "Distributed Systems",
-    "Project Management",
-    "Database Design"
+    "Event-Driven Architecture",
+    "Production Infrastructure",
+    "GraphQL",
+    "Database Design",
+    "Product Management",
+    "UI/UX Design"
   ],
   projects: [
     {
       title: "Factory Operating System",
       techStack: ["Go", "TypeScript", "Distributed Systems"],
       description:
-        "Developed a scalable Factory Operating System that streamlines manufacturing operations by integrating real-time data analytics, automation workflows, and interdepartmental process optimization across Tesla’s factories.",
+        "Built a full-stack operating system that turns factory data into the workflows and automation production teams use to run and improve operations across Tesla factories.",
       logo: Tesla,
       link: {
         href: "https://www.tesla.com/manufacturing",
@@ -175,9 +178,9 @@ export const RESUME_DATA: {
     },
     {
       title: "Factory Support AI",
-      techStack: ["Go", "React", "AI Agents"],
+      techStack: ["Go", "React", "LLM Agents"],
       description:
-        "Designed a multi-agent AI system that helps engineers diagnose factory issues by investigating logs, code, production systems, and infrastructure—reducing time-to-resolution across manufacturing software domains.",
+        "Built a multi-agent support system that investigates logs, code, production systems, and infrastructure to help engineers diagnose factory issues and shorten time to resolution.",
       logo: Tesla,
       link: {
         href: "https://www.tesla.com/manufacturing",
@@ -187,7 +190,7 @@ export const RESUME_DATA: {
       title: "Self-Service Factory Environments",
       techStack: ["Go", "Kubernetes", "React"],
       description:
-        "Built a self-service platform for spinning up production-like factory software environments on demand, enabling faster development and safer validation across multi-site manufacturing stacks.",
+        "Shipped a self-service platform that gives engineers production-like factory software environments on demand, enabling faster development and safer validation across multi-site systems.",
       logo: Tesla,
       link: {
         href: "https://www.tesla.com/manufacturing",
